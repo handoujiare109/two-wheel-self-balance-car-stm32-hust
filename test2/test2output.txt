@@ -1,0 +1,43 @@
+
+========================================
+  Motor Dead Zone & Polarity Test
+  SYSCLK = 64MHz, PWM = 10KHz
+========================================
+
+[Test 1] Polarity Check
+  PWM+ : wheel should turn FORWARD
+  PWM- : wheel should turn BACKWARD
+  Press KEY2 to start...
+
+--- Round 1 / 3 ---
+  FORWARD  (PWM=+500) ... observe wheel direction, then...
+  BACKWARD (PWM=-500) ... observe wheel direction.
+
+--- Round 2 / 3 ---
+  FORWARD  (PWM=+500) ... observe wheel direction, then...
+  BACKWARD (PWM=-500) ... observe wheel direction.
+
+--- Round 3 / 3 ---
+  FORWARD  (PWM=+500) ... observe wheel direction, then...
+  BACKWARD (PWM=-500) ... observe wheel direction.
+
+[Test 1] DONE.
+  If FORWARD turns wheel FORWARD:  polarity OK.
+  If FORWARD turns wheel BACKWARD: polarity REVERSED!
+
+[Test 2] Dead Zone Scan
+  PWM will increase from 60 to 600.
+  Watch wheels and note the PWM where motor starts turning.
+  Press KEY2 to start...
+
+  [1/17] PWM=60  (main equiv ~68)  â†? observe & press KEY2 for next
+  [2/17] PWM=80  (main equiv ~90)  â†? observe & press KEY2 for next
+  [3/17] PWM=100  (main equiv ~113)  â†? observe & press KEY2 for next
+  [4/17] PWM=120  (main equiv ~135)  â†? observe & press KEY2 for next
+  [5/17] PWM=140  (main equiv ~158)  â†? observe & press KEY2 for next
+  [6/17] PWM=160  (main equiv ~180)  â†? observe & press KEY2 for next
+  [7/17] PWM=180  (main equiv ~203)  â†? observe & press KEY2 for next
+  [8/17] PWM=200  (main equiv ~225)  â†? observe & press KEY2 for next
+  [9/17] PWM=240  (main equiv ~270)  â†? observe & press KEY2 for next
+  [10/17] PWM=280  (main equiv ~315)  â†? observe & press KEY2 for next
+  [11/17] PWM=320  (main equiv ~360)  â†? observe & press KEY2 for next

@@ -1,0 +1,143 @@
+# ============================================
+# STM32 / Keil MDK-ARM Build Artifacts
+# ============================================
+
+# Compiled objects and listings
+*.o
+*.crf
+*.d
+*.lst
+*.lnp
+*.dep
+*.map
+*.axf
+*.hex
+*.htm
+*.build_log.htm
+*.sct
+*.scvd
+*.uvguix.*
+*.iex
+
+# Build output directories
+Output/
+Objects/
+Listings/
+DebugConfig/
+RTE/
+
+# JLink / ST-Link settings
+*.jlink
+JLinkLog.txt
+JLinkSettings.ini
+
+# ============================================
+# IDE & Editor
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================
+# Large Binary Files & Archives
+# ============================================
+
+# Compressed archives
+*.rar
+*.zip
+*.7z
+*.tar.gz
+
+# Word documents (binary, not version-control friendly)
+*.doc
+*.docx
+
+# ============================================
+# Project-specific: exclude large directories
+# ============================================
+
+# Software tools (large installers)
+所需软件/
+
+# Report videos (very large binary files)
+报告视频/
+
+# ============================================
+# Template-specific build artifacts at root
+# ============================================
+
+# Build output in Template/ root (not in subdirectories)
+/Template/*.o
+/Template/*.crf
+/Template/*.d
+/Template/*.lst
+/Template/*.lnp
+/Template/*.dep
+/Template/*.map
+/Template/*.axf
+/Template/*.hex
+/Template/*.htm
+/Template/*.build_log.htm
+
+# ============================================
+# Test project build artifacts
+# ============================================
+
+/test/*.o
+/test/*.crf
+/test/*.d
+/test/*.lst
+/test/*.lnp
+/test/*.dep
+/test/*.map
+/test/*.axf
+/test/*.hex
+/test/*.htm
+/test/*.build_log.htm
+
+/test2/*.o
+/test2/*.crf
+/test2/*.d
+/test2/*.lst
+/test2/*.lnp
+/test2/*.dep
+/test2/*.map
+/test2/*.axf
+/test2/*.hex
+/test2/*.htm
+/test2/*.build_log.htm
+
+# ============================================
+# MDK-RAM build artifacts
+# ============================================
+
+/MDK-RAM/*.o
+/MDK-RAM/*.crf
+/MDK-RAM/*.d
+/MDK-RAM/*.lst
+/MDK-RAM/*.lnp
+/MDK-RAM/*.dep
+/MDK-RAM/*.map
+/MDK-RAM/*.axf
+/MDK-RAM/*.hex
+/MDK-RAM/*.htm
+/MDK-RAM/*.build_log.htm
